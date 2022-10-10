@@ -6,10 +6,6 @@ const AddTask = () => {
   const [text, setText] = useState("");
   const { addTaskToList } = useContext(GlobalContext);
 
-  const inputField = () => {
-    setText("");
-  };
-
   const handleSubmit = (event) => {
     if (text.length) {
       event.preventDefault();
@@ -36,10 +32,7 @@ const AddTask = () => {
           >
             Save
           </button>
-          <button
-            className={`${Style.buttonHead} ${Style.buttonHead_discard}`}
-            onClick={inputField}
-          >
+          <button className={`${Style.buttonHead} ${Style.buttonHead_discard}`}>
             Discard
           </button>
         </div>
