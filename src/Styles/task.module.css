@@ -34,3 +34,8 @@
     margin-left: 10px;
     cursor: pointer;
 }
+.completed_checked{
+    text-decoration: line-through;
+    font-weight: 500;
+    margin-left: 1rem;
+}
