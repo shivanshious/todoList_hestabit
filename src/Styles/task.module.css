@@ -1,0 +1,36 @@
+.task_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(255,255,255,0.301);
+}
+.task{
+    display: flex;
+    align-items: center;
+    width: 77%;
+}
+.main_task{
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.task_actions{
+    width: 22%;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.edit{
+    color: rgb(19, 76, 182);
+    cursor: pointer;
+}
+.delete{
+    color: #c30303;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.completed{
+    color: #140970;
+    margin-left: 10px;
+    cursor: pointer;
+}

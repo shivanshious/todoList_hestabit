@@ -1,0 +1,47 @@
+
+.inputHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.input{
+    width: 75%;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    background: none;
+    color: #fff;
+}
+.input::placeholder{
+    color: #fff;
+    font-weight: 500;
+    font-size: medium;
+}
+.input:focus{
+    outline: none;
+}
+.input_actions{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+.buttonHead{
+    font-size: large;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.buttonHead:hover{
+    text-decoration: underline;
+}
+.buttonHead_save{
+    color: #0a7808;
+}
+.buttonHead_discard{
+    color: #c30303;
+}
