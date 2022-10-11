@@ -23,6 +23,7 @@ const AddTask = () => {
           type="text"
           className={`${Style.input}`}
           placeholder="add task..."
+          value={text}
           onChange={handleChange}
         />
         <div className={`${Style.input_actions}`}>
@@ -30,10 +31,15 @@ const AddTask = () => {
             className={`${Style.buttonHead} ${Style.buttonHead_save}`}
             onClick={handleSubmit}
           >
-            Save
+            Add
           </button>
-          <button className={`${Style.buttonHead} ${Style.buttonHead_discard}`}>
-            Discard
+          <button
+            className={`${Style.buttonHead} ${Style.buttonHead_discard}`}
+            onClick={() => {
+              setText("");
+            }}
+          >
+            Cancel
           </button>
         </div>
       </div>

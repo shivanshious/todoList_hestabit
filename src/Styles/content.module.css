@@ -1,15 +1,14 @@
 .content_container{
     background: rgb(255, 255, 255,0.1);
-    min-width: 70%;
-    min-height: 40%;
+    min-height: 30%;
     position: absolute;
     top: 3rem;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    max-width: min-content;
-    max-height: min-content;
+    max-width: 60%;
+    max-height: fit-content;
     border-radius: 10px;
     padding: 1rem ;
     border: 1px solid rgba(255, 255, 255, 0.281);

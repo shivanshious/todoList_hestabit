@@ -31,16 +31,19 @@
 }
 .buttonHead{
     font-size: large;
-    background: none;
+    background: rgba(255, 255, 255, 0.801);
+    border-radius: 6px;
+    padding: 4px 10px;
     border: none;
     color: #fff;
     cursor: pointer;
+    margin-left: 1rem;
 }
 .buttonHead:hover{
     text-decoration: underline;
 }
 .buttonHead_save{
-    color: #0a7808;
+    color: #140970;
 }
 .buttonHead_discard{
     color: #c30303;

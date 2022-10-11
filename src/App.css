@@ -2,3 +2,16 @@
     width: 100vw;
     height: 100vh;
 }
+::-webkit-scrollbar {
+    height: 5px;
+}
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.438); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(204, 204, 204); 
+  }

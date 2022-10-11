@@ -16,10 +16,6 @@ const reducer = (state, action) => {
       return {
         todo_list: state.todo_list.filter((item) => item !== action.payload),
       };
-    case "edit_task":
-      return {
-        todo_list: state.todo_list,
-      };
     default:
       return state;
   }
